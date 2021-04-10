@@ -1,0 +1,237 @@
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.header {
+    height: 6rem;
+    background-image: url("images/bg-header-desktop.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Style the submit button with a specific background color etc */
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+
+/* Add a background color and some padding around the form */
+
+.container {
+    width: 100%;
+    height: calc(100% - 8rem);
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: #F0FAFB;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.card{
+    display: flex;
+    border-radius: 6px;
+    height: 120px;
+    width: 80%;
+    background: white;
+    box-shadow: 1px 1px 15px #d5d5d5;
+    margin-top: 1.5rem;
+    position: relative;
+}
+
+.card-l {
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 4px;
+    background: white;
+    border-radius: 6px 0 0 6px;
+}
+
+.card:hover>.card-l{
+    background: #61A9A8;
+}
+
+.icon {
+    display: flex;
+    width: 120px;
+    height: 60%;
+    background-position: center;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./images/account.svg);
+}
+
+.container-information{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    width: calc(100% - 120px);
+    padding: 1rem;
+}
+
+.container-information .information{
+    display: flex;
+    flex-flow: column;
+    flex: 0 1 40%;
+}
+
+.container-information .skills {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 1 60%;
+    justify-content: flex-end;
+}
+
+.information .item-sup{
+    margin-bottom: .2rem;
+    display: flex;
+    flex-flow: row;
+}
+
+.item-sup .name {
+    color: #61A9A8;
+    font-size: 14px;
+    margin-right: .5rem;
+    line-height: 22px;
+}
+
+.item-sup .new {
+    font-size: 11px;
+    line-height: 16px;
+    color: white;
+    background: #64A1A4;
+    height: 14px;
+    padding: .2rem;
+    border-radius: 12px;
+    margin-right: .5rem;
+}
+
+.item-sup .featured {
+    font-size: 11px;
+    line-height: 16px;
+    height: 14px;
+    color: white;
+    background: black;
+    padding: .2rem;
+    border-radius: 12px;
+    margin-right: .5rem;
+}
+
+
+
+
+.information .item-med{
+    margin-bottom: .2rem;
+    display: flex;
+    flex-flow: row;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.information .item-med:hover label{
+    color: #64A1A4;
+    cursor:pointer !important;
+}
+
+.information .item-inf{
+    margin-bottom: .2rem;
+    display: flex;
+    flex-flow: row;
+}
+
+.item-inf label {
+    color: #A9ADAE;
+}
+
+.point {
+    margin: 0 .8rem;
+    width: 1px;
+    height: 1px;
+    border: 1px solid #c9c9c9;
+    border-radius: 147%;
+    color: #c9c9c9;
+    background: #c9c9c9;
+    align-self: center;
+}
+
+
+
+.skill {
+    margin: .3rem;
+    background: #F0F4F5;
+    font-size: 12px;
+    font-weight: 600;
+    color: #61A9A8;
+    padding: .2rem;
+    border-radius: 2px;
+}
+
+.skill:hover{
+    color: white;
+    background: #61A9A8;
+}
+
+
+
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.container1 {
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+
+.section {
+    height: 300px;
+    width: 400px;
+    float: left;
+}
+
+.container5 {
+    height: 200px;
+    width: 300px;
+    float: left;
+}
+
+.container2 {
+    width: 95%;
+    height: 40%;
+    float: top;
+}
+
+.container3 {
+    width: 95%;
+    height: 70%;
+    float: center;
+}
+
+.container4 {
+    width: 95%;
+    height: 40%;
+    float: bottom;
+}
